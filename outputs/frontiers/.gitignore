@@ -1,0 +1,36 @@
+# Protect the site when it is used as a separate repository.
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+.aws/
+.ssh/
+.secrets/
+secrets/
+credentials/
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+credentials.json
+service-account*.json
+service_account*.json
+*client_secret*.json
+.netrc
+.npmrc
+.pypirc
+
+# Temporary script containing private Figma asset download URLs.
+/download-assets.ps1
+
+node_modules/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.log
+.wrangler/
+
+# .openai/hosting.json contains deployment configuration, not credentials.

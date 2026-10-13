@@ -1,0 +1,40 @@
+# Local environment files; safe examples may be committed.
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+
+# Credentials and private key material.
+.aws/
+.ssh/
+.secrets/
+secrets/
+credentials/
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+credentials.json
+service-account*.json
+service_account*.json
+*client_secret*.json
+.netrc
+.npmrc
+.pypirc
+
+# Temporary scripts containing private Figma asset download URLs.
+/work/download-page-assets.cjs
+/outputs/frontiers/download-assets.ps1
+
+# Local runtime state and diagnostic output.
+node_modules/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.log
+.wrangler/
+
+# Keep application source, images, and .openai/hosting.json versioned.
